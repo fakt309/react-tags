@@ -3,7 +3,7 @@
     "access": "public"
   },
   "name": "@vgaidadei/react-tags",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "main": "./build/index.js",
   "scripts": {
