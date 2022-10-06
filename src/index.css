@@ -49,7 +49,7 @@
 }
 .wrap-tags > .tags > .input {
   padding: 15px 10px;
-  min-width: 200px;
+  min-width: 50px;
   border: none;
   background: unset;
   outline: none;

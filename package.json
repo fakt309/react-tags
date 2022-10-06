@@ -3,7 +3,7 @@
     "access": "public"
   },
   "name": "@vgaidadei/react-tags",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "",
   "main": "./build/index.js",
   "scripts": {
@@ -11,6 +11,17 @@
   },
   "author": "vgaidadei",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fakt309/react-tags"
+  },
+  "homepage": "https://github.com/fakt309/react-tags#readme",
+  "keywords": [
+    "react",
+    "UI",
+    "tags",
+    "input"
+  ],
   "dependencies": {
     "@babel/core": "^7.19.3",
     "@babel/preset-env": "^7.19.3",

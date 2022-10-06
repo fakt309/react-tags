@@ -58,7 +58,7 @@ const Tags = (props) => {
             }
             if (e.keyCode === 13 && activeOption !== null) {
               let option = e.target.parentNode.parentNode.querySelector('.list').querySelectorAll('.option')[activeOption]
-              props?.value.push(option.innerHTML)
+              props.onChange([...props.value, option.innerHTML])
               e.target.value = ''
               setShowList(false)
               activeOption = null
@@ -150,7 +150,7 @@ const Tags = (props) => {
             key={`listTag${idx}`}
             className={idx === activeOption ? 'option active' : 'option'}
             onClick={(e) => {
-              props?.value.push(tag)
+              props.onChange([...props.value, tag])
               e.target.parentNode.parentNode.querySelector('.tags .input').value = ''
               setShowList(false)
               activeOption = null
