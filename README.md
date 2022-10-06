@@ -4,7 +4,11 @@ You can easy input tags in your React project.
 
 ![tags](https://user-images.githubusercontent.com/43887554/194263617-aa828ff1-b153-4ea8-b875-2bd83d610617.gif)
 
-# Why you should use this libarary
+#DEMO
+
+https://fakt309.github.io/react-tags/
+
+# Why you should use this library
 
  - It's very simple
  - Works with or without an drop-down list
