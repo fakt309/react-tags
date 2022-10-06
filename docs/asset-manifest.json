@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fakt309/react-tags/static/css/main.c582559a.css",
+    "main.js": "/fakt309/react-tags/static/js/main.ea092d07.js",
+    "static/js/787.b52190a6.chunk.js": "/fakt309/react-tags/static/js/787.b52190a6.chunk.js",
+    "index.html": "/fakt309/react-tags/index.html",
+    "main.c582559a.css.map": "/fakt309/react-tags/static/css/main.c582559a.css.map",
+    "main.ea092d07.js.map": "/fakt309/react-tags/static/js/main.ea092d07.js.map",
+    "787.b52190a6.chunk.js.map": "/fakt309/react-tags/static/js/787.b52190a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c582559a.css",
+    "static/js/main.ea092d07.js"
+  ]
+}
