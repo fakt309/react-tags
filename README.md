@@ -4,7 +4,7 @@ You can easy input tags in your React project.
 
 ![tags](https://user-images.githubusercontent.com/43887554/194263617-aa828ff1-b153-4ea8-b875-2bd83d610617.gif)
 
-#DEMO
+# DEMO
 
 https://fakt309.github.io/react-tags/
 
