@@ -1,0 +1,103 @@
+.wrap-tags {
+  display: block;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+  font-family: monospace, Arial;
+}
+.wrap-tags > .tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.wrap-tags > .tags > .tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 5px;
+  border-radius: 100px;
+  background-color: #eaeaea;
+}
+.wrap-tags > .tags > .tag > .tag__text {
+  margin: 5px 10px;
+  color: #666666;
+  font-size: 14px;
+}
+.wrap-tags > .tags > .tag > .tag__remove {
+  margin: 5px 10px;
+  margin-left: 0px;
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-color: #999;
+  border-radius: 100px;
+  opacity: 0.7;
+  transition: opacity ease 0.2s;
+}
+.wrap-tags > .tags > .tag > .tag__remove:hover {
+  opacity: 1;
+}
+.wrap-tags > .tags > .input {
+  padding: 15px 10px;
+  min-width: 200px;
+  border: none;
+  background: unset;
+  outline: none;
+  align-self: stretch;
+  flex: 1;
+  font-family: monospace, Arial;
+  color: #666666;
+  font-size: 14px;
+}
+.wrap-tags > .list {
+  position: absolute;
+  top: calc(100% + 10px);
+  width: 100%;
+  border-radius: 0px;
+  background-color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  z-index: 1;
+  box-shadow: 0px 0px 5px #999999;
+  max-height: 200px;
+  overflow-y: auto;
+  transition: max-height ease 0.2s;
+}
+.wrap-tags > .list > .option {
+  cursor: pointer;
+  padding: 10px;
+  color: #666666;
+  background-color: #dddddd00;
+  transition: background-color ease 0.2s;
+}
+.wrap-tags > .list > .option:hover {
+  background-color: #dddddd;
+}
+.wrap-tags > .list > .option.active {
+  background-color: #cccccc;
+}
+.wrap-tags > .list::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 100px;
+}
+.wrap-tags > .list::-webkit-scrollbar-track {
+  background: unset;
+}
+.wrap-tags > .list::-webkit-scrollbar-thumb {
+  background: #bbbbbb;
+}
+.wrap-tags > .list.hide {
+  max-height: 0px;
+}
